@@ -20,7 +20,12 @@ namespace timetableforabcinstitute03
             InitializeComponent();
         }
 
-        /*  private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void Form15_Load(object sender, EventArgs e)
+        {
+
+        }
+
+          private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
           {
 
               string query1 = null;
@@ -39,6 +44,10 @@ namespace timetableforabcinstitute03
               conn.Open();
               //DataTable dt = new DataTable();
               SqlDataReader sdr = cmd.ExecuteReader();
+
+
+
+       
               dt.Load(sdr);
 
               conn.Close();
@@ -98,7 +107,7 @@ namespace timetableforabcinstitute03
               }
 
               dataGridView1.DataSource = newData;
-          }*/
+          }
     }
 }
 

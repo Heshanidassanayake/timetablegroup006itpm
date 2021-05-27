@@ -40,7 +40,6 @@ namespace timetableforabcinstitute03
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(994, 357);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Form15
             // 
@@ -52,6 +51,7 @@ namespace timetableforabcinstitute03
             this.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form15";
             this.Text = "Form15";
+            this.Load += new System.EventHandler(this.Form15_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
